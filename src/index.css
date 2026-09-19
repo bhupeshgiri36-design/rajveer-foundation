@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-rf-navy: #0B2A4A;
+  --color-rf-orange: #F97316;
+  --color-rf-bg: #F5FAFD;
+  --color-rf-accent: #FFF4E8;
+  --font-poppins: "Poppins", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-marathi: "Mukta", sans-serif;
+  --font-marathi-display: "Yatra One", cursive;
+}
+
+@layer base {
+  body {
+    @apply font-inter text-gray-800 bg-rf-bg;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins text-rf-navy;
+  }
+}

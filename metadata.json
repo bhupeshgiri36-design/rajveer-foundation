@@ -1,0 +1,6 @@
+{
+  "name": "Rajveer Foundation",
+  "description": "Rajveer Foundation is a humanitarian and motivational initiative created in loving memory of Rajveer, dedicated to helping people, spreading kindness and inspiring humanity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
